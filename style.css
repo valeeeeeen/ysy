@@ -1,0 +1,170 @@
+body{
+    background-image: url(./imagenes/fondos//perfecto.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+    margin: 0%;
+    text-align: center;
+    backdrop-filter: blur(3px);
+}
+
+.ysylogo {
+
+    margin-bottom: 3%;
+}
+.contenido {
+    margin: 2% 10% 0% 10%;
+}
+@font-face {
+    font-family: AKIRA;
+    src: url(./fonts/AKIRA.otf);
+}
+
+
+.bioysy{
+    color: white;
+    font-family: AKIRA;
+}
+
+@font-face {
+    font-family: Fuente2;
+    src: url(./fonts/AKIRA.otf);
+}
+
+
+
+.ysybioinfo2{
+    color: rgb(255, 255, 255);
+    font-family: Fuente2;
+}
+p {
+    font-size: 18px;
+    text-shadow: 1px 1px 1px rgb(129, 129, 129);
+}
+.cards {
+    display: flex;
+    justify-content: center;
+}
+.cards a {
+    margin: 2% 1% 2% 1%;
+    font-size: 20px;
+}
+.posterImage {
+    border: goldenrod 2px solid;
+    filter: grayscale(100%);
+}
+.posterImage:hover {
+    transform: scale(106%);
+    transition: 0.4s;
+    filter: grayscale(0%);
+}
+.ysylogo{
+    color: aliceblue;
+}
+
+@font-face {
+    font-family: Fuente2;
+    src: url(./fonts/Fuente2.otf);
+}
+
+
+@font-face {
+    font-family: Fuente3;
+    src: url(./fonts/Fuente3.otf);
+}
+
+.ysybioinfoTITULO{
+    color: aliceblue;
+    font-family: Fuente3;
+    text-align: center;
+    margin-top: 4%;
+}
+.linea {
+    color: goldenrod;
+    border: goldenrod 2px solid;
+    margin: 2% 0% 2% 0%
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/*:::::footer*/
+.pie-pagina{
+    width: 100%;
+    background-color: #4864e4;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+    background-color: goldenrod;
+    text-align: center;
+    padding: 10px 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: goldenrod;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #135faa;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+
+
+
+
+
